@@ -1,0 +1,72 @@
+[
+  {
+    "id": "weekday",
+    "level": 1,
+    "name": "平日倒垃圾",
+    "seconds": 60,
+    "desc": "上課日晚上的垃圾：吃完的便當、喝完的飲料、用過的衛生紙。東西單純，先把基本的分清楚。",
+    "items": [
+      "paper-lunchbox",
+      "leftovers",
+      "pet-bottle",
+      "used-tissue",
+      "receipt",
+      "tissue-roll",
+      "fruit-peel",
+      "eggshell",
+      "dry-battery",
+      "steel-can"
+    ]
+  },
+  {
+    "id": "drink-party",
+    "level": 2,
+    "name": "手搖飲聚會後",
+    "seconds": 50,
+    "desc": "宿舍聚會完桌上一堆杯子和零食袋。重點是一樣東西要拆成好幾部分丟。",
+    "items": [
+      "bubble-tea",
+      "drink-paper-cup",
+      "tetra-pak",
+      "straw",
+      "snack-bag",
+      "disposable-utensils",
+      "aluminum-can",
+      "plastic-bag"
+    ]
+  },
+  {
+    "id": "after-typhoon",
+    "level": 3,
+    "name": "颱風後大掃除",
+    "seconds": 45,
+    "desc": "停電後換下的燈管、用過的瓦斯罐、打破的碗。特殊回收的東西要單獨交給隨車人員。",
+    "items": [
+      "fluorescent-tube",
+      "power-bank",
+      "gas-canister",
+      "ceramic-bowl",
+      "glass-bottle",
+      "cardboard-box",
+      "styrofoam"
+    ]
+  },
+  {
+    "id": "new-year-cleaning",
+    "level": 4,
+    "name": "過年大掃除",
+    "seconds": 40,
+    "desc": "一年份的雜物一次清。有些東西不能直接丟上車，要先聯絡清潔隊。",
+    "items": [
+      "mattress",
+      "old-furniture",
+      "large-appliance",
+      "old-clothes",
+      "old-phone",
+      "mercury-thermometer",
+      "spray-can",
+      "cooking-oil",
+      "shampoo-bottle"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "id": "english-slug",
+  "level": 5,
+  "name": "情境名稱",
+  "seconds": 40,
+  "desc": "一兩句說明這個情境會遇到什麼垃圾、重點是什麼。",
+  "items": ["bubble-tea", "pet-bottle"]
+}

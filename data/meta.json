@@ -1,0 +1,74 @@
+{
+  "site": {
+    "name": "垃圾分類小百科",
+    "tagline": "拆開來，丟對地方",
+    "repo": "https://github.com/b1243006/garbage-wiki",
+    "game": "https://b1243006.github.io/garbage-rag/game/"
+  },
+  "bins": [
+    {
+      "id": "trash",
+      "name": "一般垃圾",
+      "where": "垃圾車",
+      "color": "#5b6470"
+    },
+    {
+      "id": "recycle",
+      "name": "資源回收",
+      "where": "資源回收車",
+      "color": "#1f6fb2"
+    },
+    {
+      "id": "food",
+      "name": "廚餘",
+      "where": "廚餘桶",
+      "color": "#2f7d4f"
+    },
+    {
+      "id": "special",
+      "name": "特殊回收",
+      "where": "交給隨車人員或回收點",
+      "color": "#b8541b"
+    },
+    {
+      "id": "bulky",
+      "name": "巨大垃圾",
+      "where": "先聯絡清潔隊預約",
+      "color": "#6a4bb0"
+    }
+  ],
+  "categories": [
+    {
+      "id": "drink",
+      "name": "飲料與餐具"
+    },
+    {
+      "id": "plastic",
+      "name": "塑膠與保麗龍"
+    },
+    {
+      "id": "paper",
+      "name": "紙類"
+    },
+    {
+      "id": "metal-glass",
+      "name": "金屬、玻璃與陶瓷"
+    },
+    {
+      "id": "hazardous",
+      "name": "電池、燈管與高壓罐"
+    },
+    {
+      "id": "kitchen",
+      "name": "廚餘與食用油"
+    },
+    {
+      "id": "home",
+      "name": "衣物與電器"
+    },
+    {
+      "id": "bulky",
+      "name": "大型垃圾"
+    }
+  ]
+}

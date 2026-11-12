@@ -1,0 +1,907 @@
+[
+  {
+    "id": "bubble-tea",
+    "name": "喝完的珍奶",
+    "aliases": [
+      "珍珠奶茶",
+      "手搖飲",
+      "塑膠飲料杯"
+    ],
+    "category": "drink",
+    "parts": [
+      {
+        "part": "塑膠杯身",
+        "bin": "recycle",
+        "how": "倒空飲料，用清水簡單沖洗",
+        "docs": [
+          "doc_01"
+        ]
+      },
+      {
+        "part": "杯口封膜",
+        "bin": "trash",
+        "how": "撕下來，丟一般垃圾",
+        "docs": [
+          "doc_01"
+        ]
+      },
+      {
+        "part": "吸管",
+        "bin": "trash",
+        "how": "拔掉，丟一般垃圾",
+        "docs": [
+          "doc_01",
+          "doc_06"
+        ]
+      },
+      {
+        "part": "剩下的珍珠",
+        "bin": "food",
+        "how": "倒出來瀝乾，依當地廚餘規定",
+        "docs": [
+          "doc_01",
+          "doc_12"
+        ]
+      }
+    ],
+    "mistake": "整杯沒拆就丟資源回收，封膜和吸管都還在上面。",
+    "brother": "珍奶要拆四件啦！杯子沖一下回收，封膜吸管丟垃圾車，珍珠倒廚餘。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "drink-paper-cup",
+    "name": "手搖飲紙杯",
+    "aliases": [
+      "淋膜紙杯",
+      "咖啡紙杯",
+      "紙杯"
+    ],
+    "category": "drink",
+    "parts": [
+      {
+        "part": "紙杯",
+        "bin": "recycle",
+        "how": "倒空沖洗，和一般紙類分開交給資源回收車",
+        "docs": [
+          "doc_01"
+        ]
+      },
+      {
+        "part": "塑膠杯蓋",
+        "bin": "recycle",
+        "how": "拆下來，依塑膠容器回收",
+        "docs": [
+          "doc_01"
+        ]
+      },
+      {
+        "part": "隔熱紙套",
+        "bin": "recycle",
+        "how": "放進紙類回收（沒沾到油汙的才可以）",
+        "docs": [
+          "doc_01"
+        ]
+      }
+    ],
+    "mistake": "把淋膜紙杯當一般紙類，跟報紙、紙箱綁在一起。",
+    "brother": "紙杯裡面有一層膜，不是普通的紙，要跟紙類分開喔。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "tetra-pak",
+    "name": "鋁箔包",
+    "aliases": [
+      "利樂包",
+      "紙盒包",
+      "牛奶盒",
+      "飲料盒"
+    ],
+    "category": "drink",
+    "parts": [
+      {
+        "part": "吸管",
+        "bin": "trash",
+        "how": "取出來，丟一般垃圾",
+        "docs": [
+          "doc_04"
+        ]
+      },
+      {
+        "part": "鋁箔包盒子",
+        "bin": "recycle",
+        "how": "壓扁後交給資源回收車，也可以拿到超商、超市回收",
+        "docs": [
+          "doc_04"
+        ]
+      }
+    ],
+    "mistake": "吸管插在裡面沒拿出來，盒子也沒壓扁。",
+    "brother": "吸管抽出來、盒子壓扁，超商也收，順路就丟了。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "paper-lunchbox",
+    "name": "紙便當盒",
+    "aliases": [
+      "便當盒",
+      "紙碗",
+      "紙盤",
+      "紙餐盒"
+    ],
+    "category": "drink",
+    "parts": [
+      {
+        "part": "紙便當盒",
+        "bin": "recycle",
+        "how": "倒掉剩菜，稍微擦拭或沖洗後回收",
+        "docs": [
+          "doc_02"
+        ]
+      },
+      {
+        "part": "剩菜剩飯",
+        "bin": "food",
+        "how": "倒進廚餘桶",
+        "docs": [
+          "doc_02",
+          "doc_12"
+        ]
+      }
+    ],
+    "mistake": "以為有油就不能回收，或覺得要洗到跟新的一樣。",
+    "brother": "不用洗到發亮啦，剩菜倒掉、擦一擦就能回收。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "disposable-utensils",
+    "name": "塑膠免洗餐具",
+    "aliases": [
+      "免洗湯匙",
+      "塑膠叉子",
+      "塑膠碗"
+    ],
+    "category": "drink",
+    "parts": [
+      {
+        "part": "塑膠免洗餐具",
+        "bin": "recycle",
+        "how": "去除食物殘渣，略為沖洗、擦乾淨後回收",
+        "docs": [
+          "doc_02"
+        ]
+      }
+    ],
+    "mistake": "沾著醬汁就整包丟進回收。",
+    "brother": "湯匙叉子沖一下就能回收，不要連醬汁一起丟。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "pet-bottle",
+    "name": "寶特瓶",
+    "aliases": [
+      "礦泉水瓶",
+      "飲料瓶",
+      "塑膠瓶"
+    ],
+    "category": "plastic",
+    "parts": [
+      {
+        "part": "寶特瓶",
+        "bin": "recycle",
+        "how": "拆下瓶蓋、倒空沖洗，瀝乾壓扁後裝袋",
+        "docs": [
+          "doc_05"
+        ]
+      }
+    ],
+    "mistake": "瓶子裡還有剩飲料，瓶蓋也沒拆。",
+    "brother": "倒空、拆蓋、壓扁，三個動作做完再丟回收車。",
+    "local_note": "瓶蓋要先拆下來；拆下的瓶蓋怎麼收，依當地清潔隊規定。",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "shampoo-bottle",
+    "name": "洗髮精瓶",
+    "aliases": [
+      "沐浴乳瓶",
+      "清潔劑瓶",
+      "洗碗精瓶"
+    ],
+    "category": "plastic",
+    "parts": [
+      {
+        "part": "塑膠瓶",
+        "bin": "recycle",
+        "how": "倒空內容物，沖洗瀝乾後回收",
+        "docs": [
+          "doc_05"
+        ]
+      }
+    ],
+    "mistake": "裡面還有沒用完的洗髮精就直接丟。",
+    "brother": "有 1 到 7 號回收標誌的塑膠瓶都收，沖乾淨就好。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "plastic-bag",
+    "name": "塑膠袋",
+    "aliases": [
+      "購物袋",
+      "提袋",
+      "塑膠提袋"
+    ],
+    "category": "plastic",
+    "parts": [
+      {
+        "part": "乾淨的單一材質塑膠袋",
+        "bin": "recycle",
+        "how": "保持乾淨乾燥，依當地清潔隊規定回收",
+        "docs": [
+          "doc_06"
+        ]
+      },
+      {
+        "part": "沾到湯汁、油漬的塑膠袋",
+        "bin": "trash",
+        "how": "丟一般垃圾",
+        "docs": [
+          "doc_06"
+        ]
+      }
+    ],
+    "mistake": "裝過湯麵的髒塑膠袋也丟回收。",
+    "brother": "髒掉的塑膠袋回收不了啦，乾淨的才收。",
+    "local_note": "塑膠袋收不收、怎麼收，各縣市規定不同。",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "snack-bag",
+    "name": "零食包裝袋",
+    "aliases": [
+      "洋芋片袋",
+      "餅乾袋",
+      "糖果袋",
+      "茶包外袋"
+    ],
+    "category": "plastic",
+    "parts": [
+      {
+        "part": "零食包裝袋",
+        "bin": "trash",
+        "how": "丟一般垃圾；內層有鋁箔，是複合材質，不能當塑膠回收",
+        "docs": [
+          "doc_06"
+        ]
+      }
+    ],
+    "mistake": "看到是塑膠就丟塑膠回收。",
+    "brother": "裡面亮亮的那層是鋁箔，不能當塑膠回收喔。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "straw",
+    "name": "吸管",
+    "aliases": [
+      "塑膠吸管",
+      "珍珠吸管"
+    ],
+    "category": "plastic",
+    "parts": [
+      {
+        "part": "吸管",
+        "bin": "trash",
+        "how": "丟一般垃圾",
+        "docs": [
+          "doc_06"
+        ]
+      }
+    ],
+    "mistake": "以為塑膠做的東西都能回收。",
+    "brother": "吸管不在回收項目裡，丟垃圾車就對了。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "styrofoam",
+    "name": "保麗龍",
+    "aliases": [
+      "保麗龍盒",
+      "家電緩衝材",
+      "保麗龍便當盒"
+    ],
+    "category": "plastic",
+    "parts": [
+      {
+        "part": "包裝用保麗龍",
+        "bin": "recycle",
+        "how": "去除膠帶、木材、鐵釘等其他包材後回收",
+        "docs": [
+          "doc_07"
+        ]
+      },
+      {
+        "part": "保麗龍餐具",
+        "bin": "recycle",
+        "how": "倒掉食物殘渣，略為沖洗擦乾後回收",
+        "docs": [
+          "doc_07"
+        ]
+      }
+    ],
+    "mistake": "以為保麗龍不能回收，直接塞進垃圾袋。",
+    "brother": "保麗龍可以回收！膠帶撕掉、髒的沖一下就好。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "receipt",
+    "name": "電子發票",
+    "aliases": [
+      "感熱紙",
+      "收據",
+      "發票",
+      "傳真紙"
+    ],
+    "category": "paper",
+    "parts": [
+      {
+        "part": "電子發票",
+        "bin": "trash",
+        "how": "丟一般垃圾；感熱紙無法再生，不能放紙類回收",
+        "docs": [
+          "doc_03"
+        ]
+      }
+    ],
+    "mistake": "以為是紙就丟紙類回收。",
+    "brother": "發票是感熱紙，不能回收，對完獎就丟垃圾車。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "used-tissue",
+    "name": "用過的衛生紙",
+    "aliases": [
+      "衛生紙",
+      "面紙",
+      "擦手紙"
+    ],
+    "category": "paper",
+    "parts": [
+      {
+        "part": "用過的衛生紙",
+        "bin": "trash",
+        "how": "丟一般垃圾",
+        "docs": [
+          "doc_03"
+        ]
+      }
+    ],
+    "mistake": "覺得衛生紙也是紙，丟進紙類回收。",
+    "brother": "用過的衛生紙不能回收，丟垃圾車。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "cardboard-box",
+    "name": "紙箱",
+    "aliases": [
+      "網購紙箱",
+      "包裹",
+      "瓦楞紙箱"
+    ],
+    "category": "paper",
+    "parts": [
+      {
+        "part": "紙箱",
+        "bin": "recycle",
+        "how": "拆開壓平，整理捆綁後交出",
+        "docs": [
+          "doc_03"
+        ]
+      },
+      {
+        "part": "膠帶",
+        "bin": "trash",
+        "how": "撕下來，丟一般垃圾",
+        "docs": [
+          "doc_03",
+          "doc_06"
+        ]
+      }
+    ],
+    "mistake": "膠帶沒撕、紙箱沒壓平就整個丟。",
+    "brother": "膠帶撕乾淨、紙箱壓平，回收車比較好收。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "tissue-roll",
+    "name": "衛生紙捲筒",
+    "aliases": [
+      "紙捲筒",
+      "捲筒芯"
+    ],
+    "category": "paper",
+    "parts": [
+      {
+        "part": "衛生紙捲筒",
+        "bin": "recycle",
+        "how": "放進紙類回收",
+        "docs": [
+          "doc_03"
+        ]
+      }
+    ],
+    "mistake": "跟用過的衛生紙一起丟垃圾。",
+    "brother": "捲筒芯是乾淨的紙，可以回收喔。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "aluminum-can",
+    "name": "鋁罐",
+    "aliases": [
+      "飲料罐",
+      "啤酒罐",
+      "汽水罐"
+    ],
+    "category": "metal-glass",
+    "parts": [
+      {
+        "part": "鋁罐",
+        "bin": "recycle",
+        "how": "倒空，用水略為沖洗，壓扁後裝袋",
+        "docs": [
+          "doc_08"
+        ]
+      }
+    ],
+    "mistake": "罐子裡還有剩飲料就丟。",
+    "brother": "罐子倒乾淨、踩扁，再交給回收車。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "glass-bottle",
+    "name": "玻璃瓶",
+    "aliases": [
+      "醬料瓶",
+      "酒瓶",
+      "玻璃罐"
+    ],
+    "category": "metal-glass",
+    "parts": [
+      {
+        "part": "玻璃瓶",
+        "bin": "recycle",
+        "how": "拆下瓶蓋、倒空，略為沖洗後回收",
+        "docs": [
+          "doc_09"
+        ]
+      }
+    ],
+    "mistake": "瓶蓋沒拆、裡面還有醬料。",
+    "brother": "玻璃瓶蓋子拿掉、沖一下，就能回收。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "ceramic-bowl",
+    "name": "破掉的陶瓷碗",
+    "aliases": [
+      "陶瓷盤",
+      "瓷碗",
+      "馬克杯",
+      "花瓶"
+    ],
+    "category": "metal-glass",
+    "parts": [
+      {
+        "part": "陶瓷碎片",
+        "bin": "trash",
+        "how": "用紙盒或厚紙板包好，標示「內有尖銳物品」；不能放進玻璃回收",
+        "docs": [
+          "doc_09"
+        ]
+      }
+    ],
+    "mistake": "以為陶瓷跟玻璃一樣，丟進玻璃回收。",
+    "brother": "陶瓷不是玻璃！包好寫清楚，別讓清潔隊員割到手。",
+    "local_note": "陶瓷怎麼排出依各地清潔隊規定，本站先歸在一般垃圾。",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "steel-can",
+    "name": "鐵罐",
+    "aliases": [
+      "罐頭",
+      "奶粉罐",
+      "鐵盒"
+    ],
+    "category": "metal-glass",
+    "parts": [
+      {
+        "part": "鐵罐",
+        "bin": "recycle",
+        "how": "先分開黏著的非金屬材料，倒空後略為沖洗，壓扁裝袋",
+        "docs": [
+          "doc_08"
+        ]
+      }
+    ],
+    "mistake": "罐頭裡的湯汁沒倒乾淨就丟。",
+    "brother": "罐頭湯汁倒掉、沖一下，鐵罐也是回收車收的。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "dry-battery",
+    "name": "乾電池",
+    "aliases": [
+      "電池",
+      "三號電池",
+      "四號電池",
+      "鈕扣電池"
+    ],
+    "category": "hazardous",
+    "parts": [
+      {
+        "part": "乾電池",
+        "bin": "special",
+        "how": "取出後交給資源回收車，或拿到超商、量販店回收",
+        "docs": [
+          "doc_10"
+        ]
+      }
+    ],
+    "mistake": "丟進一般垃圾，混在垃圾袋裡。",
+    "brother": "電池不能丟垃圾車！超商就收，順手拿去。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "power-bank",
+    "name": "行動電源",
+    "aliases": [
+      "充電寶",
+      "鋰電池",
+      "手機電池"
+    ],
+    "category": "hazardous",
+    "parts": [
+      {
+        "part": "行動電源",
+        "bin": "special",
+        "how": "在正負極貼上絕緣膠帶、單獨存放，儘快交給資源回收車或回收點",
+        "docs": [
+          "doc_10"
+        ]
+      }
+    ],
+    "mistake": "壞掉後一直放在抽屜，或直接丟垃圾桶。",
+    "brother": "鋰電池不要囤在家裡，貼好膠帶趕快拿去回收。",
+    "local_note": "如果已經膨脹、破損或發熱，先問清潔隊怎麼處理。",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "fluorescent-tube",
+    "name": "日光燈管",
+    "aliases": [
+      "燈管",
+      "燈泡",
+      "LED 燈",
+      "螢光燈"
+    ],
+    "category": "hazardous",
+    "parts": [
+      {
+        "part": "日光燈管",
+        "bin": "special",
+        "how": "用紙套包好避免打破，交給資源回收車或照明販賣業者",
+        "docs": [
+          "doc_11"
+        ]
+      }
+    ],
+    "mistake": "直接塞進垃圾袋，燈管破掉。",
+    "brother": "燈管有水銀，包好整支交給回收車，不要折斷。",
+    "local_note": "不小心打破時，要和一般垃圾分開，用堅固容器包好並註明內容物。",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "mercury-thermometer",
+    "name": "水銀體溫計",
+    "aliases": [
+      "體溫計",
+      "溫度計",
+      "水銀溫度計"
+    ],
+    "category": "hazardous",
+    "parts": [
+      {
+        "part": "水銀體溫計",
+        "bin": "special",
+        "how": "用原包裝盒裝好，交給資源回收車的隨車人員",
+        "docs": [
+          "doc_11"
+        ]
+      }
+    ],
+    "mistake": "打破後直接丟一般垃圾。",
+    "brother": "水銀體溫計要裝回盒子，親手交給隨車人員。",
+    "local_note": "破掉時用堅固容器包好，並註明內容物。",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "gas-canister",
+    "name": "卡式瓦斯罐",
+    "aliases": [
+      "瓦斯罐",
+      "卡式爐罐",
+      "高壓罐"
+    ],
+    "category": "hazardous",
+    "parts": [
+      {
+        "part": "卡式瓦斯罐",
+        "bin": "special",
+        "how": "用完後在通風處排空殘氣，單獨包裝並標示「內有高壓瓶」，親手交給隨車人員",
+        "docs": [
+          "doc_08"
+        ]
+      }
+    ],
+    "mistake": "跟一般垃圾一起丟進垃圾車的壓縮車。",
+    "brother": "瓦斯罐不能丟壓縮車！排空、包好、親手交給我。",
+    "local_note": "家用大型瓦斯鋼瓶不是清潔隊回收項目，要交給瓦斯行。",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "spray-can",
+    "name": "噴霧罐",
+    "aliases": [
+      "髮膠",
+      "殺蟲劑噴罐",
+      "噴霧瓶"
+    ],
+    "category": "hazardous",
+    "parts": [
+      {
+        "part": "噴霧罐",
+        "bin": "special",
+        "how": "確認用完，在通風處排空殘氣，單獨包裝交給隨車人員",
+        "docs": [
+          "doc_08"
+        ]
+      }
+    ],
+    "mistake": "還有剩就丟進垃圾袋。",
+    "brother": "噴霧罐也是高壓罐，跟瓦斯罐一樣處理。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "leftovers",
+    "name": "剩菜剩飯",
+    "aliases": [
+      "廚餘",
+      "剩飯",
+      "便當剩菜"
+    ],
+    "category": "kitchen",
+    "parts": [
+      {
+        "part": "剩菜剩飯",
+        "bin": "food",
+        "how": "瀝乾水分，挑出塑膠袋、牙籤等雜物；屬於養豬（熟）廚餘",
+        "docs": [
+          "doc_12"
+        ]
+      }
+    ],
+    "mistake": "連塑膠袋、牙籤一起倒進廚餘桶。",
+    "brother": "廚餘要瀝乾，牙籤塑膠袋挑出來再倒。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "fruit-peel",
+    "name": "果皮",
+    "aliases": [
+      "香蕉皮",
+      "橘子皮",
+      "茶渣",
+      "果核"
+    ],
+    "category": "kitchen",
+    "parts": [
+      {
+        "part": "果皮",
+        "bin": "food",
+        "how": "瀝乾後倒進廚餘桶（屬於堆肥廚餘）",
+        "docs": [
+          "doc_12"
+        ]
+      }
+    ],
+    "mistake": "跟熟廚餘混在一起倒。",
+    "brother": "分不清生廚餘熟廚餘，就先放堆肥那桶。",
+    "local_note": "果皮能不能丟廚餘，以所在地清潔隊公告為準。",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "eggshell",
+    "name": "蛋殼",
+    "aliases": [
+      "雞蛋殼"
+    ],
+    "category": "kitchen",
+    "parts": [
+      {
+        "part": "蛋殼",
+        "bin": "food",
+        "how": "倒進廚餘桶（宜蘭、臺北、新北等 9 個縣市的規定）",
+        "docs": [
+          "doc_12"
+        ]
+      }
+    ],
+    "mistake": "以為全台灣的規定都一樣。",
+    "brother": "蛋殼要看你住哪！宜蘭是丟廚餘喔。",
+    "local_note": "依 2026 年 1 月報導，基隆、臺北、新北、桃園、高雄、宜蘭、苗栗、雲林、澎湖列入廚餘；臺中、臺南、彰化等地通常當一般垃圾。",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "cooking-oil",
+    "name": "炸過的油",
+    "aliases": [
+      "廢食用油",
+      "回鍋油",
+      "過期沙拉油"
+    ],
+    "category": "kitchen",
+    "parts": [
+      {
+        "part": "廢食用油",
+        "bin": "special",
+        "how": "放涼後裝進寶特瓶或原油瓶，蓋緊交給資源回收車或定點回收",
+        "docs": [
+          "doc_13"
+        ]
+      }
+    ],
+    "mistake": "倒進水槽、馬桶或廚餘桶。",
+    "brother": "油不能倒水槽，放涼裝瓶、蓋緊再拿去回收。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "old-clothes",
+    "name": "舊衣服",
+    "aliases": [
+      "舊衣",
+      "二手衣",
+      "外套"
+    ],
+    "category": "home",
+    "parts": [
+      {
+        "part": "舊衣",
+        "bin": "recycle",
+        "how": "洗乾淨、保持乾燥，投入有許可字號的舊衣回收箱，或資源回收日交出",
+        "docs": [
+          "doc_14"
+        ]
+      }
+    ],
+    "mistake": "濕的、髒的衣服直接塞進回收箱。",
+    "brother": "舊衣洗乾淨再回收，回收箱要看有沒有許可字號。",
+    "local_note": "舊衣是否列入回收項目，以各縣市公告為準。",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "old-phone",
+    "name": "舊手機",
+    "aliases": [
+      "手機",
+      "智慧型手機",
+      "功能型手機"
+    ],
+    "category": "home",
+    "parts": [
+      {
+        "part": "舊手機",
+        "bin": "recycle",
+        "how": "先刪除個人資料，取出 SIM 卡和記憶卡，再交給資源回收車",
+        "docs": [
+          "doc_15"
+        ]
+      }
+    ],
+    "mistake": "沒刪資料、SIM 卡還插著就拿去回收。",
+    "brother": "手機回收前先清資料、拔卡，個資要顧好。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "large-appliance",
+    "name": "大型家電",
+    "aliases": [
+      "冰箱",
+      "洗衣機",
+      "電視",
+      "冷氣"
+    ],
+    "category": "home",
+    "parts": [
+      {
+        "part": "大型家電",
+        "bin": "bulky",
+        "how": "買新機時請廠商帶走舊機，或通知清潔隊安排回收；不要自己拆",
+        "docs": [
+          "doc_15"
+        ]
+      }
+    ],
+    "mistake": "自己拆開或敲壞，想說比較好丟。",
+    "brother": "買新冰箱就叫廠商順便載走舊的，最省事。",
+    "local_note": "不確定怎麼處理，可以撥環境部資源回收專線 0800-085-717。",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "mattress",
+    "name": "舊床墊",
+    "aliases": [
+      "床墊",
+      "彈簧床"
+    ],
+    "category": "bulky",
+    "parts": [
+      {
+        "part": "舊床墊",
+        "bin": "bulky",
+        "how": "先聯絡清潔隊約好清運日期和地點，再依時間排出",
+        "docs": [
+          "doc_16"
+        ]
+      }
+    ],
+    "mistake": "趁晚上沒人丟在路邊或垃圾車停靠點。",
+    "brother": "床墊不能直接丟上車啦，先打電話跟清潔隊約時間。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  },
+  {
+    "id": "old-furniture",
+    "name": "舊家具",
+    "aliases": [
+      "沙發",
+      "衣櫃",
+      "書桌",
+      "椅子"
+    ],
+    "category": "bulky",
+    "parts": [
+      {
+        "part": "舊家具",
+        "bin": "bulky",
+        "how": "先聯絡環保局或清潔隊預約清運，在指定時間、地點排出",
+        "docs": [
+          "doc_16"
+        ]
+      }
+    ],
+    "mistake": "搬家時直接放在垃圾集中區。",
+    "brother": "大型家具要預約，不要偷偷放在路邊。",
+    "local_note": "",
+    "updated": "2026-11-10"
+  }
+]

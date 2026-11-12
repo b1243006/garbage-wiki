@@ -1,0 +1,18 @@
+{
+  "id": "english-slug",
+  "name": "大家口語的叫法",
+  "aliases": ["別的叫法一", "別的叫法二"],
+  "category": "drink",
+  "parts": [
+    {
+      "part": "部件名稱",
+      "bin": "recycle",
+      "how": "動詞開頭的短句，例如：倒空後沖洗",
+      "docs": ["doc_01"]
+    }
+  ],
+  "mistake": "一般人最常犯的錯，一句話",
+  "brother": "清潔隊大哥的一句話",
+  "local_note": "",
+  "updated": "YYYY-MM-DD"
+}
